@@ -1,0 +1,30 @@
+ header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header nav li { margin-right: 20px; }
+
+  header nav a { text-decoration: none; }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    letter-spacing: 0.05cm;
+    color: #F8F8FF; /* Ghostwhite */
+    background-color: #30D5C8; /* Turquoise */
+  }
+
+  .name { 
+    color: deeppink;
+    font-size: 30px;
+  }
+
+  #founder {
+    text-decoration: underline;
+    font-weight: bold;
+  }
